@@ -3,27 +3,5 @@ header{
 	height: 25vw;
 	font-family: "Argon";
 	font-size: 15vw;
-}
-
-.mobile-menu-button span{
-	height: 0.8vw;
-	width: 7vw;
-	background-color: white;
-	display: block;
-	margin: 2vw 0;
-}
-
-.mobile-menu{
-	margin-top: 25vw;
-	height: 70vh;
-	width: 40vw;
-	background-color: red;
-	position: absolute;
-	transition: 0.5s ease!important;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .mobile-menu{
-        transition-duration: 0.5s;
-    }
+	background-color: black;
 }

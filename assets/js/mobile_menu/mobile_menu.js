@@ -1,12 +1,26 @@
 
 const mobileMenuButton = document.querySelector(".mobile-menu-button");
-const mobileMenu = document.querySelector("#mobile-menuu");
+const mobileMenu = document.querySelector("#mobile-menu");
+const mobileMenuArea = document.querySelector(".mobile-menu-area");
 
-mobileMenuButton.addEventListener("click", function(){
-	if (mobileMenu.style.width != "40vw"){
-		mobileMenu.style.width = "40vw";
+function modalClose(c){
+  if (c.target == mobileMenuArea){
+    mobileMenuArea.style.width = "0%";
+    mobileMenu.style.width = "0vw";
+  }
+}
+
+function openClose(){
+  if (mobileMenuArea.style.width != "100%"){
+		mobileMenuArea.style.width = "100%";
+		mobileMenu.style.width = "60vw";
 	}
 	else{
-		mobileMenu.style.width = "0vw";
+	  mobileMenuArea.style.width = "0%";
+	  mobileMenu.style.width = "0vw";
 	}
-});
+}
+
+mobileMenuButton.addEventListener("click", openClose);
+mobileMenuArea.addEventListener("click", modalClose);
+
