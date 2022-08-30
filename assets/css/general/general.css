@@ -1,0 +1,10 @@
+
+@font-face {
+  font-family: "Argon";
+  src: url("../../fonts/Argon.otf")
+  format("truetype");
+}
+
+body{
+	font-family: Arial, Sans-Serif;
+}
