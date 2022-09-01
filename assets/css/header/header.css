@@ -4,4 +4,6 @@ header{
 	font-family: "Argon";
 	font-size: 15vw;
 	background-color: black;
+	top: 0;
+	z-index: 99;
 }
