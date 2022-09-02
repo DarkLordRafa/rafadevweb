@@ -33,6 +33,10 @@ body{
 	font-family: Arial, Sans-Serif;
 }
 
+a{
+	text-decoration: none;
+}
+
 section{
 	padding-top: 10vw;
 	padding-bottom: 10vw;
