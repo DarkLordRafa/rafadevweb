@@ -3,12 +3,6 @@
 	50%{transform: translateY(-8px);}
 }
 
-@keyframes lead-cta2{
-	0%{transform: translateY(-20vw);}
-	25%{transform: rotate(180deg);}
-	75%{transform: rotate(0deg); animation: lead-cta 2s infinite;}
-}
-
 
 
 .lead-section{
@@ -73,9 +67,17 @@
 
 .lead-section__cta{
 	color: white!important;
-	animation: lead-cta 1s linear infinite;
-	/*animation: lead-cta2 5s linear 2s infinite;*/
+	background-color: #228B22;
+	border: 3px solid transparent;
+	transition-property: background-color, border;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	
+	animation: lead-cta 0.9s linear infinite;
 }
 
-
+.lead-section__cta:hover{
+	background-color: transparent;
+	border: 3px solid #228B22;
+}
 
