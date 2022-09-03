@@ -39,10 +39,24 @@ a{
 }
 
 section{
-	padding-top: 10vw;
-	padding-bottom: 10vw;
+	text-align: center;
+}
+
+section:not(:first-child){
+	padding-top: 15vw;
+}
+
+.section__headline{
+	max-width: 60vw;
+	font-size: 6vw;
+	margin-bottom: 5vw;
 }
 
 section p{
-	font-size: 5vw;
+	font-size: 4.5vw;
+}
+
+h1, h2, h3, h4, h5, h6{
+	text-transform: uppercase;
+	font-family: "Montserrat-ExtraBold";
 }

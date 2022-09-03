@@ -1,0 +1,27 @@
+
+.services-cards__card{
+	width: 80%;
+	transition-property: transform, box-shadow;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+	border: none;
+	box-shadow: 0 0 0 2px blue;
+}
+
+.services-cards__card:hover{
+	transform: translateY(-20vw) scale(1.1);
+	box-shadow: 0 0 20px 2px blue;
+}
+
+.services-card__headline{
+	max-width: 70%;
+}
+
+.services-cards__card h4{
+	font-size: 4.5vw;
+}
+
+.services-cards__card img{
+	height: 40vw;
+}
+
