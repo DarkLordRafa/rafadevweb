@@ -36,3 +36,28 @@
 	box-shadow: 0 0 20px 2px #228B22;
 }
 
+.services-cards__card p{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.services-cards__card p::before{
+	content: "";
+	display: flex;
+	justify-content: center;
+	height: 2px;
+	width: 40%;
+	background-color: #36454F;
+	margin-bottom: 2vw;
+}
+
+.services-cards__card p::after{
+	content: "";
+	display: flex;
+	justify-content: center;
+	height: 2px;
+	width: 40%;
+	background-color: #36454F;
+	margin-top: 2vw;
+}
