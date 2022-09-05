@@ -1,15 +1,16 @@
 
 .services-cards__card{
 	width: 80%;
-	transition-property: transform, box-shadow;
+	transition-property: transform, box-shadow, opacity!important;
 	transition-duration: 1s;
 	transition-timing-function: ease;
 	border: none;
-	box-shadow: 0 0 0 2px blue;
+	box-shadow: 0 0 0 2px #0096FF;
+	background-color: white;
 }
 
 .services-cards__card:hover{
-	transform: translateY(-20vw) scale(1.1);
+	transform: translateY(-15vw) scale(1.1)!important;
 	box-shadow: 0 0 20px 2px blue;
 }
 
@@ -23,5 +24,15 @@
 
 .services-cards__card img{
 	height: 40vw;
+	max-width: 90%;
+	object-fit: contain;
+}
+
+.other-services .services-cards__card{
+	box-shadow: 0 0 0 2px #228B22;
+}
+
+.other-services .services-cards__card:hover{
+	box-shadow: 0 0 20px 2px #228B22;
 }
 

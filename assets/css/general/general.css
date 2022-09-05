@@ -31,7 +31,8 @@
 
 body{
 	font-family: Arial, Sans-Serif;
-	overflow-x: hidden;
+	overflow-x: hidden!important;
+	background-color: #EEE;
 }
 
 a{
