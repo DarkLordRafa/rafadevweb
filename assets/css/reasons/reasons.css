@@ -1,0 +1,20 @@
+
+.reasons{
+	background-color: #FBDD9D;
+}
+
+.reasons__background{
+	min-height: 70vw;
+}
+
+.reasons__content h4{
+	border-bottom: 2px solid black;
+}
+
+.reasons__background:nth-child(1){
+	
+}
+
+.reasons__content{
+	
+}
