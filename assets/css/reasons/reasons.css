@@ -5,16 +5,19 @@
 
 .reasons__background{
 	min-height: 70vw;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .reasons__content h4{
 	border-bottom: 2px solid black;
 }
 
-.reasons__background:nth-child(1){
-	
+.reasons__background:nth-child(2){
+	background-image: url("../../images/converting1.png");
 }
 
 .reasons__content{
-	
+	background-color: rgba(00, 00, 00, 0.5);
 }
