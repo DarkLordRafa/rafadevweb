@@ -1,6 +1,9 @@
 
 .reasons{
 	background-color: #FBDD9D;
+	background-color: #141466;
+	color: white;
+	padding-bottom: 10vw;
 }
 
 .reasons__background{
@@ -11,17 +14,34 @@
 	position: relative;
 }
 
+.reasons__content{
+	background-color: rgba(20, 20, 102, 0.8);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
 .reasons__content h4{
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid white;
 }
 
 .reasons__background:nth-child(2){
 	background-image: url("../../images/converting1.png");
 }
 
-.reasons__content{
-	background-color: rgba(251, 221, 157, 0.8);
-	position: absolute;
-	height: 100%;
-	width: 100%;
+.reasons__background:nth-child(3){
+	background-image: url("../../images/professionalism.jpeg");
 }
+
+.reasons__background:nth-child(4){
+	background-image: url("../../images/vitrine.jpg");
+}
+
+.reasons__background:nth-child(5){
+	background-image: url("../../images/connecting_people.jpg");
+}
+
+.reasons__background:nth-child(6){
+	background-image: url("../../images/24hrs_2.jpeg");
+}
+

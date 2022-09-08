@@ -1,4 +1,8 @@
 
+.services{
+	padding-bottom: 10vw;
+}
+
 .services-cards__card{
 	width: 80%;
 	transition-property: transform, box-shadow, opacity!important;
