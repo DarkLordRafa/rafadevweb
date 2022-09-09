@@ -1,0 +1,39 @@
+
+#slider1{
+	height: 60vw;
+	width: 100%;
+}
+
+#slider1 .carousel-inner{
+	height: 100%;
+	width: 100%;
+}
+
+#slider1 .carousel-item{
+	height: 60vw;
+	width: 100%;
+	position: relative;
+}
+
+#slider1 .slider1__slide{
+	background-color: red;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+#slider1 .slider1-slide__text{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#slider1 .slider1-slide__text a{
+	color: white;
+	text-decoration: underline;
+}
+
+#slider1 .carousel-item img{
+	width: 100%;
+}
