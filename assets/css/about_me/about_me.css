@@ -5,7 +5,7 @@
 
 .about-me__content{
 	border: 2px solid black;
-	background-image: url("../../images/tech_bg2.gif");
+	background-image: url("../../images/tech_bg1.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -17,7 +17,6 @@
 }
 
 .about-me__content p{
-	boorder: 2px solid blue;
-	font-weight: boold;
-	background-color: rgba(255, 255, 255, 1);
+	background-color: white;
+	font-family: "Montserrat-Bold";
 }
