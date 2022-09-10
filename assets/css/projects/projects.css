@@ -4,15 +4,41 @@
 	width: 100%;
 }
 
+#slider1 .carousel-item .slider1__slide{
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 #slider1 .slider1-slide__text{
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 #slider1 .slider1-slide__text a{
 	color: white;
 	text-decoration: underline;
+	font-size: 5vw;
+	font-weight: bold;
+	margin-top: 20vw;
+	text-transform: uppercase;
 }
 
-#slider1 .carousel-inner .carousel-item:nth-of-type(1) .slider1__slide{
-	background-color: red;
+#slider1 .carousel-item:nth-of-type(1) .slider1__slide{
+	background-image: url("../../images/project1.png");
+}
+
+#slider1 .carousel-item:nth-of-type(2) .slider1__slide{
+	/*background-image: url("../../images/project2.png");*/
+}
+
+#slider1 .carousel-item:nth-of-type(3) .slider1__slide{
+	background-image: url("../../images/project3.png");
+}
+
+#slider1 .carousel-item:nth-of-type(4) .slider1__slide{
+	background-image: url("../../images/project4.png");
+}
+
+#slider1 .carousel-item:nth-of-type(5) .slider1__slide{
+	background-image: url("../../images/project5.png");
 }
