@@ -10,13 +10,17 @@
 	background-repeat: no-repeat;
 }
 
+#slider1 .carousel-item{
+	transition: 1s;
+}
+
 #slider1 .slider1-slide__text{
 	background-color: rgba(0, 0, 0, 0.4);
 }
 
 #slider1 .slider1-slide__text a{
 	color: white;
-	text-decoration: underline;
+	border-bottom: 1px solid white;
 	font-size: 5vw;
 	font-weight: bold;
 	margin-top: 20vw;

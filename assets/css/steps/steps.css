@@ -1,0 +1,19 @@
+
+.steps__content{
+	max-width: 80%;
+}
+
+.steps__content span{
+	font-family: "Montserrat-Black";
+	font-size: 10vw;
+	display: inline-block;
+}
+
+.steps__content p{
+	font-weight: bold;
+}
+
+.steps__content a{
+	color: Blue;
+	text-decoration: underline;
+}

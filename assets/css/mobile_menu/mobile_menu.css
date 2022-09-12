@@ -14,6 +14,7 @@
   width: 0%;
   height: calc(100% - 25vw);
   z-index: 98;
+  
 }
 
 #mobile-menu{
@@ -26,12 +27,15 @@
 	border: 1px solid black;
 	border-top: none;
 	border-left: none;
+	flex-wrap: nowrap;
 }
 
 
 #mobile-menu ul{
   font-size: 4.5vw;
   width: 80%;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #mobile-menu ul a{
