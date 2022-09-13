@@ -1,4 +1,8 @@
 
+.steps{
+	padding-bottom: 10vw;
+}
+
 .steps__content{
 	max-width: 80%;
 }
