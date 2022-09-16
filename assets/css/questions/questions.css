@@ -1,0 +1,32 @@
+
+.accordion-item{
+	border-radius: 0;
+}
+
+.questions .accordion-item button{
+	background-color: white!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+	color: black!important;
+	text-align: center;
+}
+
+.questions .accordion-body p::before{
+	content: "";
+	height: 1px;
+	background-color: black;
+	width: 100%;
+	display: block;
+	margin-bottom: 3vw;
+}
+
+.questions .accordion-body{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.accordion-button::after{
+	background-image: url("../../images/dropdown_icon.png")!important;
+	background-position: center!important;
+	margin-left: 4vw;
+}
