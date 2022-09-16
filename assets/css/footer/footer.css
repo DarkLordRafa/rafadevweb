@@ -1,0 +1,17 @@
+
+footer{
+	background-color: black;
+	font-size: 4vw;
+}
+
+footer, footer a{
+	color: white!important;
+}
+
+.footer__contact{
+	text-decoration: underline;
+}
+
+.footer__copy a{
+	text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+
+.business{
+	background-color: black;
+	color: white;
+	overflow: hidden;
+	padding-bottom: 10vw;
+}
+
+.business__content{
+	width: 80%;
+}
+
+.business__stamp{
+	height: 12vw;
+	width: 60vw;
+	color: black;
+	transform: rotate(-35deg);
+	font-size: 6vw;
+	font-family: "Montserrat-ExtraBold";
+	top: 5vw;
+	left: -14vw;
+	background: linear-gradient(to left, rgba(255, 255, 255, 0.9), gold);
+}
+
+.business__stamp span{
+	display: inline-block;
+	border: 2px solid black;
+	width: 100%;
+}
+
+.business__social img{
+	height: 10vw;
+}
