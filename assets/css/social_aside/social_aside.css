@@ -1,0 +1,42 @@
+
+.social-aside{
+	top: 35vh;
+	right: 2vw;
+	z-index: 97;
+}
+
+.social-aside__close i{
+	font-size: 8vw;
+	transition: 0.5s ease;
+}
+
+.social-aside__icons{
+	overflow: hidden;
+	max-height: 30vh;
+	transition: max-height 0.5s ease-out;
+}
+
+.social-aside__icons img{
+	width: 10vw;
+	height: 10vw;
+	object-fit: cover;
+	margin-bottom: 2vw;
+}
+
+.social-aside-opened{
+	max-height: 30vh;
+}
+
+.social-aside-closed{
+	max-height: 0vh;
+}
+
+.social-aside__close-enabled{
+	transform: rotate(0deg);
+	color: black;
+}
+
+.social-aside__close-disabled{
+	transform: rotate(-180deg);
+	color: rgba(00, 00, 00, 0.3);
+}

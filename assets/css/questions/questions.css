@@ -7,12 +7,13 @@
 	border-radius: 0;
 }
 
-.questions .accordion-item button{
+.questions .accordion-button{
 	background-color: white!important;
 	box-shadow: none!important;
 	border-radius: 0!important;
 	color: black!important;
-	text-align: center;
+	teext-align: center!important;
+	position: relative;
 }
 
 .questions .accordion-body p::before{
@@ -33,4 +34,6 @@
 	background-image: url("../../images/dropdown_icon.png")!important;
 	background-position: center!important;
 	margin-left: 4vw;
+	position: absolute;
+	right: 4vw;
 }

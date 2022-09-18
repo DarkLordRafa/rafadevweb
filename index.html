@@ -24,6 +24,7 @@
 		<link rel="stylesheet" href="assets/css/questions/questions.css" type="text/css">
 		<link rel="stylesheet" href="assets/css/business/business.css" type="text/css">
 		<link rel="stylesheet" href="assets/css/footer/footer.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/social_aside/social_aside.css" type="text/css">
 	</head>
 	<body>
 		
@@ -41,8 +42,8 @@
 	
 	<div class="mobile-menu-modal position-fixed">
 	  <nav class="mobile-menu navbar d-flex flex-column align-items-start justify-content-start" id="mobile-menu">
-	    <a class="navbar-brand align-self-center me-0 pe-0" href="#">R</a>
-	    <ul class="navbar-nav d-flex flex-column align-items-start">
+	    <a class="navbar-brand align-self-center me-0 pe-0 w-100 text-center" href="#">R</a>
+	    <ul class="navbar-nav d-flex flex-column align-items-start pt-2">
 	      <a href="#" class="nav-link">
 	        <li class="nav-item ms-3"><i class="fas fa-home me-3"></i>Início
 	          <div class="mobile-menu-line mt-1">         
@@ -94,6 +95,26 @@
 	    </ul>
 	  </nav>
 	</div>
+	
+	<aside class="social-aside d-flex flex-column justify-content-center position-fixed">
+		<div class="social-aside__close d-flex justify-content-center mb-1">
+			<i class="fas fa-caret-up"></i>
+		</div>
+		<div class="social-aside__icons d-flex flex-column" id="social-aside__icons">
+			<a href="https://www.instagram.com/darklordrafa/">
+				<img src="assets/images/i2.png" alt="Meu Instagram" />
+			</a>
+			<a href="https://www.linkedin.com/in/rafael-aparecido-363bbb212">
+				<img src="assets/images/l2.png" alt="Meu LinkedIn" />
+			</a>
+			<a href="mailto:rafa.thefrost@gmail.com">
+				<img src="assets/images/g1.png" alt="Meu email" />
+			</a>
+			<a href="https://wa.me/5581997015826">
+				<img src="assets/images/w2.png" alt="Meu Whatsapp" />
+			</a>
+		</div>
+	</aside>
 	
 	<main>
 		<section class="lead-section container-fluid d-flex flex-column align-items-center">
@@ -415,13 +436,13 @@
 				<div class="accordion-item">
 					<h5 class="accordion-header" id="questions__heading1">
 						<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#questions__item1" aria-controls="questions__item1" aria-expanded="false">
-							Você também faz o design dos projetos?
+							O que é um site estático?
 						</button>
 					</h5>
 					<div id="questions__item1" class="accordion-collapse collapse" aria-labelledby="questions__heading1" data-bs-parent="#questions__accordion">
 						<div class="accordion-body">
 							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+								Sites e páginas estáticas são feitos unicamente para apresentar um conteúdo e suas informações. Sendo assim, não lidam com dados, como cadastros, formulários, usuários, etc, e o conteúdo só pode ser mudado no código do projeto, por alguém que entende.
 							</p>
 						</div>
 					</div>
@@ -429,13 +450,13 @@
 				<div class="accordion-item">
 					<h5 class="accordion-header" id="questions__heading2">
 						<button class="accordion-button collapsed collapsed" data-bs-toggle="collapse" data-bs-target="#questions__item2" aria-controls="questions__item2" aria-expanded="false">
-							Você também faz o design dos projetos?
+							O que é Front End?
 						</button>
 					</h5>
 					<div id="questions__item2" class="accordion-collapse collapse" aria-labelledby="questions__heading2" data-bs-parent="#questions__accordion">
 						<div class="accordion-body">
 							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+								Como desenvolvedor Front End, sou responsável por toda a estrutura e apresentação do projeto, toda a parte visual dos elementos e informações e como eles serão apresentados para o usuário.
 							</p>
 						</div>
 					</div>
@@ -443,13 +464,13 @@
 				<div class="accordion-item">
 					<h5 class="accordion-header" id="questions__heading3">
 						<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#questions__item3" aria-controls="questions__item3" aria-expanded="false">
-							Você também faz o design dos projetos?
+							Você também faz o design e textos dos projetos?
 						</button>
 					</h5>
 					<div id="questions__item3" class="accordion-collapse collapse" aria-labelledby="questions__heading3" data-bs-parent="#questions__accordion">
 						<div class="accordion-body">
 							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+								Não. Todo o material necessário para o desenvolvimento do projeto deve ser fornecido pelo cliente. Tais como imagens, textos, logos, design, etc. Eu posso criar um design para o projeto, porém isso será cobrado como um serviço extra.
 							</p>
 						</div>
 					</div>
@@ -457,13 +478,13 @@
 				<div class="accordion-item">
 					<h5 class="accordion-header" id="questions__heading4">
 						<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#questions__item4" aria-controls="questions__item4" aria-expanded="false">
-							Você também faz o design dos projetos?
+							E a hospedagem?
 						</button>
 					</h5>
 					<div id="questions__item4" class="accordion-collapse collapse" aria-labelledby="questions__heading4" data-bs-parent="#questions__accordion">
 						<div class="accordion-body">
 							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+								Para colocar o site no ar, é preciso ter um serviço de hospedagem. Posso hospedar gratuitamente em plataformas como a Netlify, porém o mais recomendado é contratar um plano de hospedagem com alguma provedora, pois assim seu site poderá ter um domínio único e maior liberdade de controle e privacidade. É como uma assinatura de internet ou um plano de operadora móvel que você paga x valor por mês, por exemplo.
 							</p>
 						</div>
 					</div>
@@ -471,13 +492,13 @@
 				<div class="accordion-item">
 					<h5 class="accordion-header" id="questions__heading5">
 						<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#questions__item5" aria-controls="questions__item5" aria-expanded="false">
-							Você também faz o design dos projetos?
+							E quanto ao preço e prazo?
 						</button>
 					</h5>
 					<div id="questions__item5" class="accordion-collapse collapse" aria-labelledby="questions__heading5" data-bs-parent="#questions__accordion">
 						<div class="accordion-body">
 							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+								O preço e o prazo de entrega podem variar muito de projeto para projeto, por questões como quantidade de conteúdo, complexidade do projeto, design, etc. Por isso é preciso fazer um orçamento para poder chegar em um valor.
 							</p>
 						</div>
 					</div>
@@ -510,8 +531,8 @@
 	
 	<footer class="container-fluid pt-3 pb-5">
 		<div class="footer__contact d-flex flex-column align-items-start mb-4">
-			<a href="" class="mb-2"><i class="fas fa-envelope me-2"></i>rafa.thefrost@gmail.com</a>
-			<a href=""><i class="fas fa-phone me-2"></i>81997015826</a>
+			<a href="mailto:rafa.thefrost@gmail.com" class="mb-2"><i class="fas fa-envelope me-2"></i>rafa.thefrost@gmail.com</a>
+			<a href="tel:81997015826"><i class="fas fa-phone me-2"></i>81997015826</a>
 		</div>
 		<div class="footer__copy d-flex justify-content-center">
 			<span>
@@ -526,6 +547,8 @@
 		<script src="assets/aos/js/aos.js">
 		</script>
 		<script src="assets/js/mobile_menu/mobile_menu.js">
+		</script>
+		<script src="assets/js/social_aside/social_aside.js">
 		</script>
 		<script>
 			window.addEventListener("load", function(){
