@@ -1,0 +1,18 @@
+
+.top-button{
+	bottom: 8vh;
+	right: 8vw;
+	background-color: darkblue;
+	color: white!important;
+	font-size: 6vw;
+	cursor: pointer;
+	transition: 0.5s;
+	height: 12vw;
+	width: 12vw;
+	z-index: 97;
+	opacity: 0;
+}
+
+.top-button-enabled{
+	opacity: 1;
+}

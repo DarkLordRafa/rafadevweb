@@ -8,6 +8,7 @@
 .social-aside__close i{
 	font-size: 8vw;
 	transition: 0.5s ease;
+	cursor: pointer;
 }
 
 .social-aside__icons{
@@ -23,17 +24,8 @@
 	margin-bottom: 2vw;
 }
 
-.social-aside-opened{
-	max-height: 30vh;
-}
-
 .social-aside-closed{
 	max-height: 0vh;
-}
-
-.social-aside__close-enabled{
-	transform: rotate(0deg);
-	color: black;
 }
 
 .social-aside__close-disabled{

@@ -1,10 +1,18 @@
 
+.mobile-menu-button{
+	dissplay: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .mobile-menu-button span{
 	height: 0.8vw;
 	width: 7vw;
 	background-color: white;
 	display: block;
 	margin: 2vw 0;
+	transition: 0.5s;
 }
 
 .mobile-menu-modal{
@@ -56,7 +64,7 @@ font-family: "Argon";
 }
 
 #mobile-menu ul::-webkit-scrollbar-track-piece:end {
-    margin-bottom: 30vh;
+    margin-bottom: 40vh;
 }
 
 #mobile-menu ul a{
@@ -79,4 +87,21 @@ font-family: "Argon";
 
 #mobile-menu ul li:hover > .mobile-menu-line{
   width: 100%;
+}
+
+.button-bar-down{
+	transform: rotate(45deg);
+	poosition: absolute;
+	margin-bottom: -2.8vw!important;
+}
+
+.button-bar-up{
+	transform: rotate(-45deg);
+	poosition: absolute;
+	margin-top: -2.8vw!important;
+}
+
+.button-bar-hide{
+	transform: translateX(10vw);
+	opacity: 0;
 }
