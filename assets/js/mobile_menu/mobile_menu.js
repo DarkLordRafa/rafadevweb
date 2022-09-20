@@ -3,15 +3,14 @@ const mobileMenuButton = document.querySelector(".mobile-menu-button");
 const mobileMenu = document.querySelector("#mobile-menu");
 const mobileMenuModal = document.querySelector(".mobile-menu-modal");
 const buttonBars = document.querySelectorAll(".mobile-menu-button span");
-const body = document.body;
 
 
 function modalClose(c){
-  toggleButtonBars();
   if (c.target == mobileMenuModal){
+    toggleButtonBars();
     mobileMenuModal.style.width = "0%";
     mobileMenu.style.cssText = "width: 0%; border-width: 0px;";
-	  body.style.overflowY = "visible";
+	  document.body.style.overflowY = "visible";
   }
 }
 
@@ -33,12 +32,12 @@ function openClose(){
   if (mobileMenuModal.style.width != "100%"){
 		mobileMenuModal.style.width = "100%";
     mobileMenu.style.cssText = "width: 60vw; border-width: 1px;";
-		body.style.overflowY = "hidden";
+		document.body.style.overflowY = "hidden";
 	}
 	else{
 	  mobileMenuModal.style.width = "0%";
     mobileMenu.style.cssText = "width: 0%; border-width: 0px;";
-	  body.style.overflowY = "visible";
+	  document.body.style.overflowY = "visible";
 	}
 }
 

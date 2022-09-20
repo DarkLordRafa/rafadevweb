@@ -10,8 +10,8 @@
 		<link rel="stylesheet" href="assets/fontawesome6/css/fontawesome.min.css" type="text/css">
 		<link rel="stylesheet" href="assets/fontawesome6/css/all.min.css" type="text/css">
 		<link rel="stylesheet" href="assets/aos/css/aos.css">
-		<link rel="stylesheet" href="asssets/css/app.css/app.css" type="text/css">
-		<!<link rel="stylesheet" href="assets/css/reset/reset.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/loading_screen/loading_screen.css">
+		<link rel="stylesheet" href="assets/css/reset/reset.css" type="text/css">
 		<link rel="stylesheet" href="assets/css/header/header.css" type="text/css">
 		<link rel="stylesheet" href="assets/css/general/general.css" type="text/css">
 		<link rel="stylesheet" href="assets/css/mobile_menu/mobile_menu.css" type="text/css">
@@ -29,6 +29,10 @@
 		<link rel="stylesheet" href="assets/css/top_button/top_button.css" type="text/css">
 	</head>
 	<body>
+	  
+	<div class="load-screen position-fixed w-100 h-100 justify-content-center align-items-center">
+	  <img src="assets/images/loading3.gif" alt="Carregando a página" />
+	</div>
 		
 	<header class="text-white bg-black container-fluid position-fixed d-flex justify-content-center align-items-center">
 		<span class="logo">
@@ -546,12 +550,15 @@
 		</div>
 	</footer>
 	
-
+	
+	
+	
 		<script src="assets/bootstrap5/js/bootstrap.bundle.min.js">
 		</script>
-		
 		<script src="assets/js/mobile_menu/mobile_menu.js">
 		</script>
+	 <script src="assets/js/loading_screen/loading_screen.js">
+	 </script>
 		<script src="assets/js/social_aside/social_aside.js">
 		</script>
 	<script src="assets/js/top_button/top_button.js">
@@ -559,9 +566,13 @@
 		<script src="assets/aos/js/aos.js">
 		</script>
 		<script>
-		  setTimeout(AOS.init({
-					easing: "ease-in-quad",
-				}), 1000);
+		window.addEventListener("load", function(){
+			AOS.init({easing: "ease-in-quad"},);
+		}
+			);
+		  //setTimeout(AOS.init({
+					//easing: "ease-in-quad",
+				//}), 1000);
 		</script>
 	</body>
 </html>
