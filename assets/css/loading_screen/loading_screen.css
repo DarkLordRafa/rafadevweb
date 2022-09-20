@@ -1,6 +1,6 @@
 
 .load-screen{
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.8);
   z-index: 99;
   top: 0;
   display: flex;
