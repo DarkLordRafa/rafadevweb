@@ -30,9 +30,9 @@
 	</head>
 	<body>
 	  
-	<!--<div class="load-screen position-fixed w-100 h-100 justify-content-center align-items-center">
+	<div class="load-screen position-fixed w-100 h-100 justify-content-center align-items-center">
 	  <img src="assets/images/loading3.gif" alt="Carregando a página" />
-	</div>-->
+	</div>
 		
 	<header class="text-white bg-black container-fluid position-fixed d-flex justify-content-center align-items-center">
 		<span class="logo">
@@ -46,11 +46,8 @@
 	</header>
 	
 	<div class="mobile-menu-modal position-fixed">
-	  <nav class="mobile-menu navbar d-flex flex-column align-items-start justify-content-start position-relative" id="mobile-menu">
+	  <nav class="mobile-menu navbar d-flex flex-column align-items-start justify-content-start" id="mobile-menu">
 	    <a class="navbar-brand align-self-center me-0 pe-0 w-100 text-center" href="#">R</a>
-	    	<div class="load-screen position-absolute w-100 h-100 justify-content-center align-items-center">
-	  <img src="assets/images/loading3.gif" alt="Carregando a página" />
-	</div>
 	    <ul class="navbar-nav d-flex flex-column align-items-start pt-2">
 	      <a href="#" class="nav-link">
 	        <li class="nav-item ms-3"><i class="fas fa-home me-3"></i>Início
@@ -569,13 +566,13 @@
 		<script src="assets/aos/js/aos.js">
 		</script>
 		<script>
-		//window.addEventListener("load", function(){
-			//AOS.init({easing: "ease-in-quad"},);
-		//}
-			//);
-		  setTimeout(AOS.init({
-					easing: "ease-in-quad",
-				}), 1000);
+		window.addEventListener("load", function(){
+			AOS.init({easing: "ease-in-quad"},);
+		}
+			);
+		  //setTimeout(AOS.init({
+					//easing: "ease-in-quad",
+				//}), 1000);
 		</script>
 	</body>
 </html>
