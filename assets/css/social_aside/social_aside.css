@@ -13,7 +13,7 @@
 
 .social-aside__icons{
 	overflow: hidden;
-	max-height: 30vh;
+	max-height: 40vh;
 	transition: max-height 0.5s ease-out;
 }
 

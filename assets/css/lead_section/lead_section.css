@@ -73,8 +73,8 @@
 	transition-property: background-color, border;
 	transition-duration: 0.5s;
 	transition-timing-function: ease;
-	
 	animation: lead-cta 0.9s linear infinite;
+	font-size: 5vw;
 }
 
 .lead-section__cta:hover{
@@ -82,3 +82,31 @@
 	border: 3px solid #228B22;
 }
 
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+.lead-section__my-card{
+	border: 10px solid black;
+	border-radius: 0px 50px 0px 50px;
+	margin-bottom: 5vw;
+}
+
+.lead-section__my-card img{
+	padding: 2vw!important;
+	border-radius: 0px 50px 0px 50px;
+}
+
+.lead-section__cta{
+	border: 5px solid transparent;
+	padding: 3vw!important;
+	font-size: 4.5vw;
+	margin-top: 5vw!important;
+}
+
+.lead-section__cta:hover{
+	border: 5px solid #228B22;
+}
+
+}

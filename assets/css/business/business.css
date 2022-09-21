@@ -31,3 +31,13 @@
 .business__social img{
 	height: 10vw;
 }
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 1023px){
+	.business{
+		margin-bottom: 10vw!important;
+	}
+}

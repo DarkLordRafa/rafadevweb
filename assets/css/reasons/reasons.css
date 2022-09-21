@@ -44,3 +44,12 @@
 	background-image: url("../../images/24hrs_2.jpeg");
 }
 
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+	.reasons__background{
+		margin-bottom: 5vw!important;
+	}
+}

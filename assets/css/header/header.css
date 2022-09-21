@@ -1,9 +1,27 @@
 
 header{
 	height: 25vw;
-	font-family: "Argon";
-	font-size: 15vw;
 	background-color: black;
 	top: 0;
 	z-index: 98;
+}
+
+header .logo{
+	font-family: "Argon";
+	font-size: 15vw;
+}
+
+.desktop-menu{
+	display: none;
+}
+
+.desktop-menu a{
+	color: white!important;
+	border: 3px solid transparent;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.desktop-menu a:hover{
+	border: 3px solid white;
 }

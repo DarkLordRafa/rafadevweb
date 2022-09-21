@@ -1,6 +1,5 @@
 
 .about-me__content{
-	border: 2px solid black;
 	background-image: url("../../images/tech_bg1.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -15,4 +14,24 @@
 .about-me__content p{
 	background-color: white;
 	font-family: "Montserrat-Bold";
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+.about-me__content{
+	padding: 7vw!important;
+}
+
+.about-me__content img{
+	padding: 1.5vw!important;
+	border: 8px solid white;
+}
+
+.about-me__content p{
+	padding: 2vw!important;
+	margin-top: 3vw!important;
+}
 }

@@ -1,11 +1,4 @@
 
-.mobile-menu-button{
-	dissplay: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
 .mobile-menu-button span{
 	height: 0.8vw;
 	width: 7vw;
@@ -104,4 +97,19 @@ font-family: "Argon";
 .button-bar-hide{
 	transform: translateX(10vw);
 	opacity: 0;
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+.mobile-menu-button{
+	margin-left: 7vw!important;
+}
+
+#mobile-menu ul li{
+  padding-left: 3vw!important;
+}
+
 }

@@ -18,6 +18,7 @@
 
 .contact-content__box:nth-of-type(1) li{
 	transition: transform 0.4s ease;
+	font-size: 4.5vw;
 }
 
 .contact-content__box:nth-of-type(1) li:hover{
@@ -29,8 +30,24 @@
 .contact-content__box:nth-of-type(2) li{
 	text-transform: uppercase;
 	font-weight: bold;
+	font-size: 4.5vw;
 }
 
 .contact-content__box:nth-of-type(2) span{
 	font-weight: bold;
+	font-size: 4.5vw;
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+.contact-content__box:nth-of-type(1) li img{
+	margin-right: 3vw!important;
+}
+
+.contact-content__box:nth-of-type(2){
+	margin-top: 3vw!important;
+}
 }

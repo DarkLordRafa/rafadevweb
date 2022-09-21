@@ -12,8 +12,12 @@
 	box-shadow: none!important;
 	border-radius: 0!important;
 	color: black!important;
-	teext-align: center!important;
 	position: relative;
+	font-size: 4.5vw;
+}
+
+.questions .accordion-button span{
+	margin-right: 4vw;
 }
 
 .questions .accordion-body p::before{
@@ -33,7 +37,31 @@
 .accordion-button::after{
 	background-image: url("../../images/dropdown_icon.png")!important;
 	background-position: center!important;
-	margin-left: 4vw;
 	position: absolute;
 	right: 4vw;
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+.questions h5{
+	padding: 2vw 3vw;
+	box-sizing: content-box!important;
+}
+
+.questions .accordion-body p::before{
+	height: 3px;
+}
+
+.accordion-button::after{
+	background-image: url("../../images/dropdown_icon.png")!important;
+	background-position: center!important;
+	position: absolute;
+	right: 4vw;
+	height: 4vw!important;
+	width: 4vw!important;
+	background-size: contain!important;
+	}
 }

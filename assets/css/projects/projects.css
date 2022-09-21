@@ -46,3 +46,24 @@
 #slider1 .carousel-item:nth-of-type(5) .slider1__slide{
 	background-image: url("../../images/project5.png");
 }
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	height: 80%!important;
+	width: 80%!important;
+}
+
+.carousel-indicators{
+	margin-bottom: 5vw!important;
+}
+
+.carousel-indicators button{
+	height: 7px!important;
+	width: 8vw!important;
+	margin: 0 1vw!important;
+}
+}

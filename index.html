@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="assets/fontawesome6/css/fontawesome.min.css" type="text/css">
 		<link rel="stylesheet" href="assets/fontawesome6/css/all.min.css" type="text/css">
 		<link rel="stylesheet" href="assets/aos/css/aos.css">
-		<link rel="stylesheet" href="assets/css/loading_screen/loading_screen.css">
+		<!--<link rel="stylesheet" href="assets/css/loading_screen/loading_screen.css">-->
 		<link rel="stylesheet" href="assets/css/reset/reset.css" type="text/css">
 		<link rel="stylesheet" href="assets/css/header/header.css" type="text/css">
 		<link rel="stylesheet" href="assets/css/general/general.css" type="text/css">
@@ -32,11 +32,11 @@
 	</head>
 	<body>
 	  
-	<div class="load-screen position-fixed w-100 h-100 justify-content-center align-items-center">
+	<!--<div class="load-screen position-fixed w-100 h-100 justify-content-center align-items-center">
 	  <img src="assets/images/loading3.gif" alt="Carregando a página" />
-	</div>
+	</div>-->
 		
-	<header class="text-white bg-black container-fluid position-fixed d-flex justify-content-center align-items-center">
+	<header class="text-white bg-black container-fluid position-fixed d-flex flex-column justify-content-center align-items-center">
 		<span class="logo">
 			R
 		</span>
@@ -45,6 +45,45 @@
 			<span></span>
 			<span></span>
 		</div>
+		<nav class="desktop-menu align-self-end">
+			<ul class="d-flex align-items-center">
+				<li>
+					<a href="#services" class="d-inline-block p-3">
+						Serviços
+					</a>
+				</li>
+				<li>
+					<a href="#about-me" class="d-inline-block p-3">
+						Sobre mim
+					</a>
+				</li>
+				<li>
+					<a href="#projects" class="d-inline-block p-3">
+						Projetos
+					</a>
+				</li>
+				<li>
+					<a href="#steps" class="d-inline-block p-3">
+						Etapas
+					</a>
+				</li>
+				<li>
+					<a href="#contact" class="d-inline-block p-3">
+						Contato
+					</a>
+				</li>
+				<li>
+					<a href="#questions" class="d-inline-block p-3">
+						Dúvidas
+					</a>
+				</li>
+				<li>
+					<a href="#business" class="d-inline-block p-3">
+						Negócios
+					</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 	
 	<div class="mobile-menu-modal position-fixed">
@@ -447,7 +486,7 @@
 				<div class="accordion-item">
 					<h5 class="accordion-header" id="questions__heading1">
 						<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#questions__item1" aria-controls="questions__item1" aria-expanded="false">
-							O que é um site estático?
+							<span>O que é um site estático?</span>
 						</button>
 					</h5>
 					<div id="questions__item1" class="accordion-collapse collapse" aria-labelledby="questions__heading1" data-bs-parent="#questions__accordion">
@@ -461,7 +500,7 @@
 				<div class="accordion-item">
 					<h5 class="accordion-header" id="questions__heading2">
 						<button class="accordion-button collapsed collapsed" data-bs-toggle="collapse" data-bs-target="#questions__item2" aria-controls="questions__item2" aria-expanded="false">
-							O que é Front End?
+							<span>O que é Front End?</span>
 						</button>
 					</h5>
 					<div id="questions__item2" class="accordion-collapse collapse" aria-labelledby="questions__heading2" data-bs-parent="#questions__accordion">
@@ -475,7 +514,7 @@
 				<div class="accordion-item">
 					<h5 class="accordion-header" id="questions__heading3">
 						<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#questions__item3" aria-controls="questions__item3" aria-expanded="false">
-							Você também faz o design e textos dos projetos?
+							<span>Você também faz o design e textos dos projetos?</span>
 						</button>
 					</h5>
 					<div id="questions__item3" class="accordion-collapse collapse" aria-labelledby="questions__heading3" data-bs-parent="#questions__accordion">
@@ -489,7 +528,7 @@
 				<div class="accordion-item">
 					<h5 class="accordion-header" id="questions__heading4">
 						<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#questions__item4" aria-controls="questions__item4" aria-expanded="false">
-							E a hospedagem?
+							<span>E a hospedagem?</span>
 						</button>
 					</h5>
 					<div id="questions__item4" class="accordion-collapse collapse" aria-labelledby="questions__heading4" data-bs-parent="#questions__accordion">
@@ -503,7 +542,7 @@
 				<div class="accordion-item">
 					<h5 class="accordion-header" id="questions__heading5">
 						<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#questions__item5" aria-controls="questions__item5" aria-expanded="false">
-							E quanto ao preço e prazo?
+							<span>E quanto ao preço e prazo?</span>
 						</button>
 					</h5>
 					<div id="questions__item5" class="accordion-collapse collapse" aria-labelledby="questions__heading5" data-bs-parent="#questions__accordion">
@@ -517,7 +556,7 @@
 			</div>
 		</section>
 		
-		<section class="business container d-flex flex-column align-items-center position-relative ps-0 pe-0 mb-5" id="business">
+		<section class="business container-fluid d-flex flex-column align-items-center position-relative ps-0 pe-0 mb-5" id="business">
 			<div class="business__stamp position-absolute d-flex justify-content-center align-items-center">
 				<span>Business</span>
 			</div>
@@ -540,7 +579,7 @@
 		</section>
 	</main>
 	
-	<footer class="container-fluid pt-3 pb-5">
+	<footer class="container-fluid">
 		<div class="footer__contact d-flex flex-column align-items-start mb-4">
 			<a href="mailto:rafa.thefrost@gmail.com" class="mb-2"><i class="fas fa-envelope me-2"></i>rafa.thefrost@gmail.com</a>
 			<a href="tel:81997015826"><i class="fas fa-phone me-2"></i>81997015826</a>
@@ -559,8 +598,8 @@
 		</script>
 		<script src="assets/js/mobile_menu/mobile_menu.js">
 		</script>
-	 <script src="assets/js/loading_screen/loading_screen.js">
-	 </script>
+	 <!--<script src="assets/js/loading_screen/loading_screen.js">
+	 </script>-->
 		<script src="assets/js/social_aside/social_aside.js">
 		</script>
 	<script src="assets/js/top_button/top_button.js">
@@ -568,10 +607,12 @@
 		<script src="assets/aos/js/aos.js">
 		</script>
 		<script>
-		window.addEventListener("load", function(){
+		/*window.addEventListener("load", function(){
 			AOS.init({easing: "ease-in-quad"},);
 		}
-			);
+			);*/
+			
+			setTimeout(AOS.init(), 1000);
 		</script>
 	</body>
 </html>
