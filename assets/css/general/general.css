@@ -70,3 +70,26 @@ h1, h2, h3, h4, h5, h6{
 
 
 
+@media (min-width: 1024px){
+section:not(:first-child){
+	padding-top: 20vh;
+}
+
+.section__headline h3{
+	max-width: 50vw;
+	font-size: 7vh;
+	margin-bottom: 8vh;
+}
+
+section p{
+	font-size: 5vh;
+}
+
+section h4{
+	font-size: 5vh;
+}
+
+.container{
+	max-width: 70%;
+}
+}

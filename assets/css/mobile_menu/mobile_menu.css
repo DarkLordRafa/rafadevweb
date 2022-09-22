@@ -113,3 +113,11 @@ font-family: "Argon";
 }
 
 }
+
+
+
+@media (min-width: 1024px){
+.mobile-menu-button, .mobile-menu-modal{
+	display: none;
+}
+}

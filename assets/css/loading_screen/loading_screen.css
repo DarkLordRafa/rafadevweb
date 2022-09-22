@@ -9,3 +9,13 @@
 .load-screen img{
   height: 25vw;
 }
+
+
+
+
+
+@media (min-width: 1024px){
+.load-screen img{
+  height: 15vh;
+}
+}

@@ -108,5 +108,63 @@
 .lead-section__cta:hover{
 	border: 5px solid #228B22;
 }
+}
 
+
+
+
+
+@media (min-width: 1024px){
+.lead-section{
+	margin-top: 5vh;
+	padding-top: 2vh;
+}
+
+.lead-section__me{
+	flex-direction: row!important;
+	margin-bottom: 10vh;
+}
+
+.lead-section__title-area{
+	order: 1;
+	width: 50%;
+	margin-right: 10vh;
+}
+
+.lead-section__title-area h1{
+	font-size: 8vh;
+}
+
+.lead-section__title-area h1 span{
+	font-size: 6vh;
+}
+
+.lead-section__title-area h2{
+	font-size: 4vh;
+}
+
+.lead-section__my-card{
+	order: 2;
+	margin-bottom: 0;
+}
+
+.lead-section__my-card img{
+	width: 50vh;
+	height: 40vh;
+}
+
+.lead-section__text{
+	border-radius: 20px;
+	padding: 5vh 15%!important;
+}
+
+.lead-section__cta{
+	border: 5px solid transparent;
+	font-size: 5vh;
+	padding: 1vh 3vh!important;
+}
+
+.lead-section__cta:hover{
+	border: 5px solid #228B22;
+}
 }

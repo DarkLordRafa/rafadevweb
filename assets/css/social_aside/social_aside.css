@@ -32,3 +32,39 @@
 	transform: rotate(-180deg);
 	color: rgba(00, 00, 00, 0.3);
 }
+
+
+
+
+
+@media (min-width: 1024px){
+.social-aside{
+	right: 2vh;
+}
+
+.social-aside__close i{
+	font-size: 5vh;
+	transition: 0.3s ease;
+}
+
+.social-aside__icons{
+	overflow: hidden;
+	max-height: 40vh;
+	transition: max-height 0.3s ease-out;
+}
+
+.social-aside__icons img{
+	width: 5vh;
+	height: 5vh;
+	margin-bottom: 1vh;
+}
+
+.social-aside-closed{
+	max-height: 0vh;
+}
+
+.social-aside__close-disabled{
+	transform: rotate(-180deg);
+	color: rgba(00, 00, 00, 0.3);
+}
+}
