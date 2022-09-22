@@ -89,13 +89,6 @@
 	padding-bottom: 10vh;
 }
 
-.seervices__cards{
-	flex-direction: row!important;
-	align-items: flex-start!important;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
-}
-
 .services-cards__card{
 	width: 80%;
 	transition-property: transform, box-shadow, opacity!important;
@@ -104,6 +97,7 @@
 	border: none;
 	box-shadow: 0 0 0 3px #0096FF;
 	background-color: white;
+	margin-bottom: 5vh!important;
 }
 
 .services-cards__card:hover{
@@ -111,12 +105,16 @@
 	box-shadow: 0 0 25px 3px blue;
 }
 
+.services-card__headline{
+	margin-bottom: 2vh!important;
+}
+
 .services-card__headline h4{
 	max-width: 60%;
 }
 
 .services-cards__card img{
-	height: 30vh;
+	height: 25vh;
 	max-width: 90%;
 	object-fit: cover;
 }

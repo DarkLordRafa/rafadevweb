@@ -16,3 +16,17 @@
 .top-button-enabled{
 	opacity: 1;
 }
+
+
+
+
+
+@media (min-width: 1024px){
+.top-button{
+	bottom: 8vh;
+	right: 8vh;
+	font-size: 4vh;
+	height: 8vh;
+	width: 8vh;
+}
+}
