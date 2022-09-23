@@ -35,3 +35,28 @@
 	margin-top: 3vw!important;
 }
 }
+
+
+
+@media (min-width: 1024px){
+.about-me__content{
+	background-image: url("../../images/tech_bg1.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 5vh!important;
+}
+
+.about-me__content img{
+	height: 40vh;
+	border: 5px solid white;
+	padding: 1.5vh!important;
+}
+
+.about-me__content p{
+	background-color: white;
+	font-family: "Montserrat-Bold";
+	padding: 5vh!important;
+	margin-top: 3vh!important;
+}
+}

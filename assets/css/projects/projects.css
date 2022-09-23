@@ -8,6 +8,7 @@
 	background-size: 100% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-color: white;
 }
 
 #slider1 .carousel-item{
@@ -15,7 +16,7 @@
 }
 
 #slider1 .slider1-slide__text{
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 #slider1 .slider1-slide__text a{
@@ -65,5 +66,31 @@
 	height: 7px!important;
 	width: 8vw!important;
 	margin: 0 1vw!important;
+}
+
+#slider1 .slider1-slide__text a{
+	border-bottom: 3px solid white;
+}
+}
+
+
+
+@media (min-width: 1024px){
+#slider1{
+	height: 70vh;
+	width: 70vw;
+}
+
+#slider1 .carousel-item .slider1__slide{
+	baackground-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#slider1 .slider1-slide__text a{
+	border-bottom: 4px solid white;
+	font-size: 4.5vh;
+	font-weight: bold;
+	margin-top: 40vh;
 }
 }

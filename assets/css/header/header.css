@@ -56,6 +56,7 @@ header .logo{
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 3vh;
+	transition: 0.1s;
 }
 
 .desktop-menu a:hover{
