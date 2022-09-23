@@ -57,3 +57,23 @@
 	margin-bottom: 5vw!important;
 }
 }
+
+
+
+@media (min-width: 1024px){
+.reasons{
+	padding-bottom: 10vh;
+}
+
+.reasons__background{
+	min-height: 60vh;
+}
+
+.reasons__content h4{
+	border-bottom: 3px solid white;
+}
+
+.reasons__background{
+	margin-bottom: 5vh!important;
+}
+}
