@@ -91,6 +91,21 @@
 	border-bottom: 4px solid white;
 	font-size: 4.5vh;
 	font-weight: bold;
-	margin-top: 40vh;
+	margin-top: 35vh;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	height: 50%!important;
+	width: 50%!important;
+}
+
+.carousel-indicators{
+	margin-bottom: 5vh!important;
+}
+
+.carousel-indicators button{
+	height: 5px!important;
+	width: 4vh!important;
+	margin: 0 1vh!important;
 }
 }

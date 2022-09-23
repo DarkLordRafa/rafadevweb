@@ -41,3 +41,36 @@
 		margin-bottom: 10vw!important;
 	}
 }
+
+
+
+@media (min-width: 1024px){
+.business{
+	padding-bottom: 10vh;
+	margin-bottom: 20vh!important;
+}
+
+.business__content{
+	width: 60%;
+}
+
+.business__stamp{
+	height: 15vh;
+	width: 75vh;
+	font-size: 6vh;
+	top: 6vh;
+	left: -18vh;
+}
+
+.business__stamp span{
+	border: 3px solid black;
+}
+
+.business__social{
+	margin-top: 5vh;
+}
+
+.business__social img{
+	height: 10vh;
+}
+}

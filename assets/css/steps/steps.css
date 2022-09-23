@@ -18,6 +18,24 @@
 }
 
 .steps__content a{
-	color: Blue;
+	color: blue;
 	text-decoration: underline;
+}
+
+
+
+
+
+@media (min-width: 1024px){
+.steps{
+	padding-bottom: 10vh;
+}
+
+.steps__content{
+	max-width: 100%;
+}
+
+.steps__content span{
+	font-size: 10vh;
+}
 }

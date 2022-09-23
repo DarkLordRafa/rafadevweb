@@ -1,6 +1,6 @@
 
 .questions{
-	padding-bottom: 10vw;
+	padding-bottom: 15vw;
 }
 
 .accordion-item{
@@ -56,12 +56,42 @@
 }
 
 .accordion-button::after{
-	background-image: url("../../images/dropdown_icon.png")!important;
-	background-position: center!important;
-	position: absolute;
 	right: 4vw;
 	height: 4vw!important;
 	width: 4vw!important;
 	background-size: contain!important;
 	}
 }
+
+
+
+@media (min-width: 1024px){
+.questions{
+	padding-bottom: 15vh;
+}
+
+.questions h5{
+	padding: 2vh;
+	box-sizing: content-box!important;
+}
+
+.questions .accordion-button{
+	font-size: 4.5vh;
+}
+
+.questions .accordion-button span{
+	margin-right: 5vh;
+}
+
+.questions .accordion-body p::before{
+	height: 2px;
+	margin-bottom: 5vh;
+}
+
+.accordion-button::after{
+	right: 3vh;
+	height: 7vh!important;
+	width: 7vh!important;
+	}
+}
+
