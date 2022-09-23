@@ -57,3 +57,30 @@
 	margin-bottom: 5vw!important;
 }
 }
+
+
+
+@media (min-width: 1024px){
+.reasons{
+	padding-bottom: 10vh;
+	flex-direction: row!important;
+	flex-wrap: wrap;
+}
+
+.reasons__background{
+	min-height: 50vh;
+	width: 45%;
+	background-size: cover;
+}
+
+.reasons__content{
+	background-color: rgba(20, 20, 102, 0.8);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.reasons__content h4{
+	border-bottom: 3px solid white;
+}
+}
