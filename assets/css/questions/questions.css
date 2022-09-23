@@ -80,7 +80,7 @@
 }
 
 .questions .accordion-button span{
-	margin-right: 5vh;
+	margin-right: 10vh;
 }
 
 .questions .accordion-body p::before{
@@ -89,9 +89,10 @@
 }
 
 .accordion-button::after{
-	right: 3vh;
-	height: 7vh!important;
-	width: 7vh!important;
-	}
+	right: 2vh;
+	height: 2vh!important;
+	width: 4vh!important;
+	background-size: 100% 100%;
+}
 }
 
