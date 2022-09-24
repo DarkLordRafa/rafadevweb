@@ -32,6 +32,10 @@
 	height: 10vw;
 }
 
+.business__social a:nth-of-type(1){
+	margin-right: 3vw;
+}
+
 
 
 
@@ -72,5 +76,9 @@
 
 .business__social img{
 	height: 8vh;
+}
+
+.business__social a:nth-of-type(1){
+	margin-right: 2vh;
 }
 }
