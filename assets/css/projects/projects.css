@@ -33,7 +33,7 @@
 }
 
 #slider1 .carousel-item:nth-of-type(2) .slider1__slide{
-	/*background-image: url("../../images/project2.png");*/
+	background-image: url("../../images/project2.png");
 }
 
 #slider1 .carousel-item:nth-of-type(3) .slider1__slide{
