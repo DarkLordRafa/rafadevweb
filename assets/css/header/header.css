@@ -12,21 +12,6 @@ header .logo{
 	font-size: 15vw;
 }
 
-.desktop-menu{
-	display: none;
-}
-
-.desktop-menu a{
-	color: white!important;
-	border: 3px solid transparent;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-.desktop-menu a:hover{
-	border: 3px solid white;
-}
-
 
 
 
